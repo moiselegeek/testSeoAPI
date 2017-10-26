@@ -3,7 +3,7 @@ methods to test SEO API
 
 # conf
 
-Just need to create conf.R file with your API keys
+Just need to create api/conf.R file with your API keys
 
 keyAPIranxplorer <- "xxxxxxxxxxxxx"
 
