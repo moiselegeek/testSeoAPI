@@ -23,7 +23,7 @@ semrushGetInfoByUrl <- function(url,country, nb) {
   curlPerform(url = url
               , writedata = f@ref
               , encoding = "ISO-8859-1"
-              , verbose = TRUE
+              #, verbose = TRUE
   )
   close(f)
   
@@ -46,5 +46,5 @@ semrushGetInfoByUrl <- function(url,country, nb) {
   return(result)
 }
 
-#semrush <- semrushGetInfoByUrl("ovh.com","fr", 1)
+#semrush <- semrushGetInfoByUrl("ovh.com","fr", 2)
 

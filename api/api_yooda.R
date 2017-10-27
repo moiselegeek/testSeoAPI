@@ -24,7 +24,7 @@ yoodaCallDomains <- function(domain) {
                              "Content-type"="application/json")
               , writedata = f@ref
               , encoding = "UTF-8"
-              , verbose = TRUE
+              #, verbose = TRUE
   )
   close(f)
   

@@ -4,7 +4,7 @@ source("./api/api_semrush.R")
 source("./api/api_yooda.R")
 
 
-ranxplorer <- ranxplorerGetInfoByUrl("www.ovh.com",50000)
+ranxplorer <- ranxplorerGetInfoByUrl("ovh.com",99999)
 
 ranxplorer_unique <- select(ranxplorer,Kw,Vol,Rx) %>%
   arrange(-Vol,Rx) %>%

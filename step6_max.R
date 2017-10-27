@@ -7,7 +7,7 @@ source("./api/api_yooda.R")
 
 maxSemrush <- semrushGetInfoByUrl("ovh.com","fr", 50000)
 
-maxRanxplorer <- ranxplorerGetInfoByUrl("www.ovh.com",50000)
+maxRanxplorer <- ranxplorerGetInfoByUrl("ovh.com",50000)
 
 maxYooda <- yoodaGetInfoByUrl("ovh.com",50000)
 
