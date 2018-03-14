@@ -8,12 +8,12 @@ source("./api/conf.R")
 
 ### API SEMRUSH
 
-# http://api.semrush.com/?type=domain_organic&key=78ec51bec52e619c795aad9b58ec9875&display_limit=1000&export_columns=Ph,Ur,Po,Nq,Nr,Tc,Ts&domain=ovh.com&database=fr
+
 # be careful with duplicate
 
 semrushGetInfoByUrl <- function(url,country, nb) {
   
-  url <- paste("http://api.semrush.com/?type=domain_organic&key=",keyAPIsemrush,"&display_limit=",nb,"&export_columns=Ph,Ur,Po,Nq,Nr,Tc,Ts&domain=",url,"&database=",country,sep="")
+  url <- paste("http://api.semrush.com/?type=domain_organic&key=",keyAPIsemrush,"&display_limit=",nb,"&export_columns=Ph,Ur,Po,Nq,Nr,Tc,Ts&domain=",url,"&database=",country, sep="")
   
   #print(url)
   
